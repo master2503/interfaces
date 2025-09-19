@@ -175,12 +175,12 @@
                 <i class="fas fa-search absolute left-3 top-3 text-black"></i>
 
             </div>
-
-            <button class="text-black hover:text-primary transition" title="Notificaciones" aria-label="Notificaciones">
-                <i class="fas fa-bell text-xl" aria-hidden="true"></i>
-                <span class="sr-only">Notificaciones</span>
-            </button>
-
+            <a href="VINCULO DE NOTIFICAICONES!!!" target="_blank" rel="noopener noreferrer">
+                <button class="text-black hover:text-primary transition" title="Notificaciones" aria-label="Notificaciones">
+                    <i class="fas fa-bell text-xl" aria-hidden="true"></i>
+                    <span class="sr-only">Notificaciones</span>
+                </button>
+            </a>
             <div class="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center cursor-pointer">
 
                 <span class="font-bold text-dark">JS</span>
@@ -408,7 +408,7 @@
 
             <h2 class="text-2xl font-display font-bold mb-6">Categories</h2>
 
-            <div class="flex space-x-9 overflow-x-auto pb-4 scrollbar-hide">
+            <div class="flex space-x-9 overflow-x-auto pb-4 scrollbar-hide ">
 
                 <button class="category-btn flex-shrink-0 bg-glass rounded-xl px-6 py-3 flex items-center space-x-2 hover:bg-opacity-80">
 
@@ -472,302 +472,180 @@
 
     </section>
 
-    <!-- Popular Recipes -->
 
-    <section class="py-8 px-6">
+        <!-- Grid de recetas -->
 
-        <div class="max-w-6xl mx-auto">
+<section id="recetas-populares" class="py-12 bg-gradient-to-b from-white to-gray-50">
+  <div class="container mx-auto px-6 lg:px-20">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Recetas Populares</h2>
 
-            <div class="flex justify-between items-center mb-6">
+    <!-- Grid de recetas -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-                <h2 class="text-2xl font-display font-bold">recetas populares</h2>
-
-                <a href="#" class="text-primary hover:underline">todo</a>
-
+        <!-- ================= PASTAS ================= -->
+        <div class="recipe-card glass-card">
+            <img src="https://stefaniaskitchenette.com/wp-content/uploads/2024/07/Carbonara-5.webp" alt="Spaghetti Carbonara" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Spaghetti Carbonara</h3>
+            <p class="text-black text-sm">Clásica receta romana con huevo, queso pecorino y panceta.</p>
             </div>
-
-            
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                <!-- Recipe Card 1 -->
-
-                <div class="recipe-card glass-card rounded-2xl overflow-hidden shadow-lg">
-
-                    <div class="relative h-48">
-
-                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-
-                             alt="Rainbow Salad" class="w-full h-full object-cover">
-
-                        <div class="absolute top-3 right-3 bg-glass rounded-full w-10 h-10 flex items-center justify-center cursor-pointer">
-
-                            <i class="far fa-heart text-primary"></i>
-
-                        </div>
-
-                        <div class="absolute bottom-3 left-3 bg-primary text-dark text-xs font-bold px-2 py-1 rounded">
-
-                            4.9 <i class="fas fa-star ml-1"></i>
-
-                        </div>
-
-                    </div>
-
-                    <div class="p-5">
-
-                        <h3 class="font-display font-bold text-xl mb-2">Ensalada Poder Arcoíris</h3>
-                        <p class="text-black text-sm mb-4">Una mezcla vibrante de verduras frescas con aderezo de limón ácido</p>
-
-                        <div class="flex justify-between items-center">
-
-                            <div class="flex items-center text-sm">
-
-                                <i class="fas fa-clock text-secondary mr-1"></i>
-
-                                <span>25 mins</span>
-
-                            </div>
-
-                            <button class="text-primary hover:text-secondary transition" title="Ver receta Ensalada Poder Arcoíris">
-                                <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                                <span class="sr-only">Ver receta Ensalada Poder Arcoíris</span>
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
-
-                <!-- Recipe Card 2 -->
-
-                <div class="recipe-card glass-card rounded-2xl overflow-hidden shadow-lg">
-
-                    <div class="relative h-48">
-
-                        <img src="https://delination.com/wp-content/uploads/2023/05/Pasta-en-crema-de-ajo-y-limon-850x550.png" 
-
-                             alt="Pasta" class="w-full h-full object-cover">
-
-                        <div class="absolute top-3 right-3 bg-glass rounded-full w-10 h-10 flex items-center justify-center cursor-pointer">
-
-                            <i class="far fa-heart text-primary"></i>
-
-                        </div>
-
-                        <div class="absolute bottom-3 left-3 bg-primary text-dark text-xs font-bold px-2 py-1 rounded">
-
-                            4.7 <i class="fas fa-star ml-1"></i>
-
-                        </div>
-
-                    </div>
-
-                    <div class="p-5">
-
-                        <h3 class="font-display font-bold text-xl mb-2">Pasta Cremosa de Ajo</h3>
-
-                        <p class="text-black text-sm mb-4">Pasta rica y sabrosa con una salsa cremosa de ajo y parmesano</p>
-
-                        <div class="flex justify-between items-center">
-
-                            <div class="flex items-center text-sm">
-
-                                <i class="fas fa-clock text-secondary mr-1"></i>
-
-                                <span>35 mins</span>
-
-                            </div>
-
-                            <button class="text-primary hover:text-secondary transition" title="Ver receta Pasta Cremosa de Ajo">
-                                <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                                <span class="sr-only">Ver receta Pasta Cremosa de Ajo</span>
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
-
-                <!-- Recipe Card 3 -->
-
-                <div class="recipe-card glass-card rounded-2xl overflow-hidden shadow-lg">
-
-                    <div class="relative h-48">
-
-                        <img src="https://w6h5a5r4.delivery.rocketcdn.me/wp-content/uploads/2019/06/pizza-margarita-1080x671.jpg" 
-
-                             alt="Pizza" class="w-full h-full object-cover aspect-square">
-
-                        <div class="absolute top-3 right-3 bg-glass rounded-full w-10 h-10 flex items-center justify-center cursor-pointer">
-
-                            <i class="fas fa-heart text-red-500"></i>
-
-                        </div>
-
-                        <div class="absolute bottom-3 left-3 bg-primary text-dark text-xs font-bold px-2 py-1 rounded">
-
-                            4.8 <i class="fas fa-star ml-1"></i>
-
-                        </div>
-
-                    </div>
-
-                    <div class="p-5">
-
-                        <h3 class="font-display font-bold text-xl mb-2">Pizza Margarita</h3>
-                        <p class="text-black text-sm mb-4">Pizza italiana clásica con mozzarella fresca y albahaca</p>
-
-                        <div class="flex justify-between items-center">
-
-                            <div class="flex items-center text-sm">
-
-                                <i class="fas fa-clock text-secondary mr-1"></i>
-
-                                <span>50 mins</span>
-
-                            </div>
-
-                            <button class="text-primary hover:text-secondary transition" title="Ver receta Pizza Margarita">
-                                <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                                <span class="sr-only">Ver receta Pizza Margarita</span>
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
         </div>
 
-    </section>
-
-    <!-- Featured Chef -->
-
-    <section class="py-12 px-6 bg-glass mt-12">
-
-        <div class="max-w-6xl mx-auto">
-
-            <h2 class="text-2xl font-display font-bold mb-8 text-center">Conoce a nuestra chef destacada</h2>
-
-            
-
-            <div class="glass-card rounded-2xl overflow-hidden md:flex">
-
-                <div class="md:w-1/3 relative">
-
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg58QAq-K6DCtxpaNZ68QJF_9OIsE91XGq4xNI0d7Qbh2wVEGD0iG19-zUrl0h1-ttRK28ni05vxIV1qV5REQZZVSjdj9CLXIFU5d49bLZp609zie57cHVlg6vilV9BIRaqv8vYfuR_eDkG/s1600/69b092a55bec3a2cb5079ebd5e7c9204.jpg" 
-
-                         alt="Chef Maria Rodriguez" class="w-full h-full object-cover">
-
-                </div>
-
-                <div class="md:w-2/3 p-8">
-
-                    <div class="flex justify-between items-start">
-
-                        <div>
-
-                            <h3 class="font-display font-bold text-2xl">Chef Maria Rodriguez</h3>
-
-                            <p class="text-secondary font-medium">Master Chef | cocina mediterrranea</p>
-
-                        </div>
-
-                <a href="https://www.instagram.com/mariarodriguezcheffe/" target="_blank" rel="noopener noreferrer">
-                    <button class="bg-primary text-dark font-bold py-2 px-6 rounded-full hover:bg-opacity-90 transition">
-                        Follow
-                    </button>
-                </a>
-
-
-                    </div>
-
-                    
-
-                    <p class="mt-4 text-white">
-
-                        Con más de 15 años de experiencia culinaria, la Chef Maria trae las vibrantes sabores del Mediterráneo a tu cocina.
-
-                        Su pasión por los ingredientes frescos y las técnicas sencillas le ha ganado múltiples premios y una leal seguimiento.
-
-                    </p>
-
-                    
-
-                    <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
-
-                        <div class="bg-dark rounded-lg p-3 text-center">
-
-                            <p class="text-primary font-bold text-xl">125+</p>
-
-                            <p class="text-xs text-gray-400">recetas</p>
-
-                        </div>
-
-                        <div class="bg-dark rounded-lg p-3 text-center">
-
-                            <p class="text-primary font-bold text-xl">1.2M</p>
-
-                            <p class="text-xs text-gray-400">seguidores</p>
-
-                        </div>
-
-                        <div class="bg-dark rounded-lg p-3 text-center">
-
-                            <p class="text-primary font-bold text-xl">12</p>
-
-                            <p class="text-xs text-gray-400">Premios</p>
-
-                        </div>
-
-                    </div>
-
-                    
-
-                    <div class="mt-6">
-
-                        <h4 class="font-display font-bold mb-3">Platos Firma</h4>
-
-
-                        <div class="flex space-x-3 overflow-x-auto pb-2">
-
-                            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" 
-
-                                 alt="Dish 1" class="w-20 h-20 rounded-lg object-cover">
-
-                            <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1432&q=80" 
-
-                                 alt="Dish 2" class="w-20 h-20 rounded-lg object-cover">
-
-                            <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-
-                                 alt="Dish 3" class="w-20 h-20 rounded-lg object-cover">
-
-                            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-
-                                 alt="Dish 4" class="w-20 h-20 rounded-lg object-cover">
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+        <div class="recipe-card glass-card">
+            <img src="https://albrizzo.com/wp-content/uploads/2022/10/LASAGNA-EN-QUERETARO-A-LA-BOLOGNESE.jpg" alt="Lasagna Bolognese" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Lasagna alla Bolognese</h3>
+            <p class="text-black text-sm">Capas de pasta con ragú de carne, bechamel y parmesano.</p>
             </div>
-
         </div>
 
+        <div class="recipe-card glass-card">
+            <img src="https://finefoodsblog.com/wp-content/uploads/2021/03/penne-allArrabbiata-1200.jpg" alt="Penne all’Arrabbiata" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Penne all’Arrabbiata</h3>
+            <p class="text-black text-sm">Pasta con salsa de tomate, ajo y un toque picante.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDl0Dqg0cI7RqBJ_4QVnUNxXWeauopyNMtnA&s" alt="Ravioli Ricotta e Spinaci" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Ravioli Ricotta e Spinaci</h3>
+            <p class="text-black text-sm">Rellenos de ricotta y espinaca con mantequilla y salvia.</p>
+            </div>
+        </div>
+
+        <!-- ================= POSTRES ================= -->
+        <div class="recipe-card glass-card">
+            <img src="https://www.gourmet.cl/wp-content/uploads/2016/09/Tiramisu.png" alt="Tiramisù" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Tiramisù</h3>
+            <p class="text-black text-sm">Postre con capas de bizcocho, café, cacao y mascarpone.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://www.allrecipes.com/thmb/NlP50cO2BjJdN4uGvl5JhW0Rx2A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-72567-Panna-cotta-ddmfs-4x3-14ae724a2a8e4ca3a79c5e27b2b61994.jpg" alt="Panna Cotta" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Panna Cotta</h3>
+            <p class="text-black text-sm">Cremoso postre de nata acompañado de salsa de frutos rojos.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://artigianasiciliana.shop/wp-content/uploads/2023/02/Cannoli.jpg" alt="Cannoli Siciliani" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Cannoli Siciliani</h3>
+            <p class="text-black text-sm">Crujientes tubos rellenos de ricotta dulce con pistachos.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://rome-tourism.org/wp-content/uploads/2023/11/glace-pot-savoureuse-italienne-scaled.jpg" alt="Gelato Italiano" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Gelato Italiano</h3>
+            <p class="text-black text-sm">Helado artesanal cremoso con sabores auténticos.</p>
+            </div>
+        </div>
+
+        <!-- ================= ALMUERZO ================= -->
+        <div class="recipe-card glass-card">
+            <img src="https://gourmitalia.cl/cdn/shop/articles/risotto-funghi_800x800.jpg?v=1707666086" alt="Risotto ai Funghi" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Risotto ai Funghi</h3>
+            <p class="text-black text-sm">Arroz cremoso con setas y parmesano.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://media-assets.lacucinaitaliana.it/photos/62a31bb27c9384b2dbd92884/1:1/w_2560%2Cc_limit/pollo-alla-cacciatora1.jpg" alt="Pollo alla Cacciatora" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Pollo alla Cacciatora</h3>
+            <p class="text-black text-sm">Pollo guisado con tomate, aceitunas y hierbas.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/363BF21F-12A7-43C8-A001-6ABE700D55FF/Derivates/ec84d216-5260-4f13-be4c-bac44340caf1.jpg" alt="Ossobuco alla Milanese" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Ossobuco alla Milanese</h3>
+            <p class="text-black text-sm">Carne de ternera con gremolata y risotto amarillo.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://www.wajos.de/cdn/shop/articles/20240611154336-parmigiana_di_melanzane_1800x1000_8bcbb43b-e1a4-422e-9b00-3c84ed14a263.jpg?v=1718225040&width=1800" alt="Parmigiana di Melanzane" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Parmigiana di Melanzane</h3>
+            <p class="text-black text-sm">Capas de berenjena con salsa de tomate y queso.</p>
+            </div>
+        </div>
+
+        <!-- ================= CENA ================= -->
+        <div class="recipe-card glass-card">
+            <img src="https://i0.wp.com/cookingitalians.com/wp-content/uploads/2024/11/Margherita-Pizza.jpg?fit=1344%2C768&ssl=1" alt="Pizza Margherita" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Pizza Margherita</h3>
+            <p class="text-black text-sm">La pizza más famosa de Nápoles con tomate, mozzarella y albahaca.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://blog.giallozafferano.it/allacciateilgrembiule/wp-content/uploads/2018/05/focaccia-genovese11.jpg" alt="Focaccia Genovese" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Focaccia Genovese</h3>
+            <p class="text-black text-sm">Pan esponjoso con aceite de oliva y sal marina.</p>
+            </div>
+        </div>
+
+        <!-- ================= DESAYUNOS ================= -->
+        <div class="recipe-card glass-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeulhOprKZKDQiZbMMwB_bMQOjg8TFeigFjA&s" alt="Cornetto Italiano" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Cornetto Italiano</h3>
+            <p class="text-black text-sm">Croissant italiano relleno de crema o mermelada.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://www.misya.info/wp-content/uploads/2017/07/Frittata-di-verdure-al-forno.jpg" alt="Frittata alle Verdure" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Frittata alle Verdure</h3>
+            <p class="text-black text-sm">Tortilla italiana con verduras de temporada.</p>
+            </div>
+        </div>
+
+        <!-- ================= BEBIDAS ================= -->
+        <div class="recipe-card glass-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg" alt="Caffè Espresso" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Caffè Espresso</h3>
+            <p class="text-black text-sm">El café corto y fuerte, clásico de Italia.</p>
+            </div>
+        </div>
+
+        <div class="recipe-card glass-card">
+            <img src="https://www.liquor.com/thmb/cv0NfK7-V2iGs1gdHbnOTMqOwT0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/neighborhood-negroni-720x720-primary-727f7dc3a5d04a298d63977679efe856.jpg" alt="Negroni" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Negroni</h3>
+            <p class="text-black text-sm">Cóctel con ginebra, vermut y Campari.</p>
+            </div>
+        </div>
+
+        <!-- ================= VEGANO ================= -->
+        <div class="recipe-card glass-card">
+            <img src="https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2019/10/vegan-minestrone-1000x1500.jpg" alt="Minestrone Vegetariano" class="w-full h-40 object-cover rounded-t-xl">
+            <div class="p-4">
+            <h3 class="text-lg font-semibold">Minestrone Vegetariano</h3>
+            <p class="text-black text-sm">Sopa de verduras con pasta corta.</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
     </section>
+
+
 
     <!-- Video Tutorials -->
 
@@ -795,7 +673,7 @@
 
                         <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1610&q=80" 
 
-                             alt="Video thumbnail" class="w-full h-48 object-cover">
+                            alt="Video thumbnail" class="w-full h-48 object-cover">
 
                         <div class="absolute inset-0 flex items-center justify-center">
 
@@ -1035,7 +913,30 @@
             });
 
         });
+    </script>
 
+    <script>
+    // JavaScript para el carrusel
+    document.addEventListener('DOMContentLoaded', () => {
+        const carousel = document.getElementById('carousel');
+        const slides = carousel.children;
+        const totalSlides = slides.length;
+        let currentIndex = 0;
+
+        const updateCarousel = () => {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+        };
+
+        document.getElementById('prev').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateCarousel();
+        });
+
+        document.getElementById('next').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateCarousel();
+        });
+    });
     </script>
 
 </body>
