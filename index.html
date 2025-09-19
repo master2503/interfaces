@@ -10,7 +10,7 @@
 
     <title>los juanchis| Recetas Premium</title>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -23,12 +23,12 @@
                 extend: {
 
                     colors: {
+                        primary: '#2563eb',
+                        secondary: '#ef4444',
 
-                        primary: '#FFD700',
-
-                        secondary: '#4ADE80',
-
-                        dark: '#1A1A1A',
+                        dark: 'rgb(255,255,255)',
+                        rojo: 'rgb(255,0,0)',
+                        azul: 'rgb(0,0,255)',
 
                         glass: 'rgba(30, 30, 30, 0.7)',
 
@@ -58,7 +58,7 @@
 
         body {
 
-            background: linear-gradient(135deg, #121212 0%, #1E1E1E 100%);
+            background: linear-gradient(135deg, #c8c8c8 0%, #1E1E1E 100%);
 
             color: #F5F5F5;
 
@@ -76,7 +76,7 @@
 
             -webkit-backdrop-filter: blur(10px);
 
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(1, 1, 1, 0.1);
 
         }
 
@@ -154,10 +154,11 @@
 
             <div class="hidden md:flex space-x-6">
 
-            <a href="#" class="text-gray-300 hover:text-primary transition">Inicio</a>
-            <a href="#" class="text-gray-300 hover:text-primary transition">Recetas</a>
-            <a href="#" class="text-gray-300 hover:text-primary transition">Chefs</a>
-            <a href="#" class="text-gray-300 hover:text-primary transition">Colecciones</a>
+            <a href="#" class="text-black hover:text-black transition">Inicio</a>
+            <a href="#" class="text-black hover:text-black transition">Recetas</a>
+            <a href="#" class="text-black hover:text-black transition">Chefs</a>
+            <a href="#" class="text-black hover:text-black transition">Colecciones</a>
+
 
             </div>
 
@@ -169,13 +170,13 @@
 
             <div class="relative hidden md:block">
 
-                <input type="text" placeholder="Buscar recetas..." class="bg-glass rounded-full py-2 px-4 pl-10 text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary w-64">
+                <input type="text" placeholder="Buscar recetas..." class="bg-glass rounded-full py-2 px-4 pl-10 text-black focus:outline-none focus:ring-2 focus:ring-secondary w-64">
 
-                <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                <i class="fas fa-search absolute left-3 top-3 text-black"></i>
 
             </div>
 
-            <button class="text-gray-300 hover:text-primary transition" title="Notificaciones" aria-label="Notificaciones">
+            <button class="text-black hover:text-primary transition" title="Notificaciones" aria-label="Notificaciones">
                 <i class="fas fa-bell text-xl" aria-hidden="true"></i>
                 <span class="sr-only">Notificaciones</span>
             </button>
@@ -373,7 +374,7 @@
                     <div class="p-5">
 
                         <h3 class="font-display font-bold text-xl mb-2">Ensalada Poder Arcoíris</h3>
-                        <p class="text-gray-400 text-sm mb-4">Una mezcla vibrante de verduras frescas con aderezo de limón ácido</p>
+                        <p class="text-black text-sm mb-4">Una mezcla vibrante de verduras frescas con aderezo de limón ácido</p>
 
                         <div class="flex justify-between items-center">
 
@@ -404,7 +405,7 @@
 
                     <div class="relative h-48">
 
-                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1371&q=80" 
+                        <img src="https://delination.com/wp-content/uploads/2023/05/Pasta-en-crema-de-ajo-y-limon-850x550.png" 
 
                              alt="Pasta" class="w-full h-full object-cover">
 
@@ -426,7 +427,7 @@
 
                         <h3 class="font-display font-bold text-xl mb-2">Pasta Cremosa de Ajo</h3>
 
-                        <p class="text-gray-400 text-sm mb-4">Pasta rica y sabrosa con una salsa cremosa de ajo y parmesano</p>
+                        <p class="text-black text-sm mb-4">Pasta rica y sabrosa con una salsa cremosa de ajo y parmesano</p>
 
                         <div class="flex justify-between items-center">
 
@@ -457,7 +458,7 @@
 
                     <div class="relative h-48">
 
-                        <img src="https://e7.pngegg.com/pngimages/502/59/png-clipart-pizza-pizza.png" 
+                        <img src="https://w6h5a5r4.delivery.rocketcdn.me/wp-content/uploads/2019/06/pizza-margarita-1080x671.jpg" 
 
                              alt="Pizza" class="w-full h-full object-cover aspect-square">
 
@@ -478,7 +479,7 @@
                     <div class="p-5">
 
                         <h3 class="font-display font-bold text-xl mb-2">Pizza Margarita</h3>
-                        <p class="text-gray-400 text-sm mb-4">Pizza italiana clásica con mozzarella fresca y albahaca</p>
+                        <p class="text-black text-sm mb-4">Pizza italiana clásica con mozzarella fresca y albahaca</p>
 
                         <div class="flex justify-between items-center">
 
@@ -549,7 +550,7 @@
 
                     
 
-                    <p class="mt-4 text-gray-300">
+                    <p class="mt-4 text-white">
 
                         Con más de 15 años de experiencia culinaria, la Chef Maria trae las vibrantes sabores del Mediterráneo a tu cocina.
 
@@ -672,7 +673,7 @@
                     <div class="p-5">
                         <h3 class="font-display font-bold text-xl mb-2">Pancakes perfeitas cada vez</h3>
 
-                        <p class="text-gray-400 text-sm">Aprenda os segredos para panquecas fofas e douradas com o Chef Michael</p>
+                        <p class="text-white text-sm">Aprenda os segredos para panquecas fofas e douradas com o Chef Michael</p>
 
                     </div>
 
@@ -710,7 +711,7 @@
                     <div class="p-5">
                         <h3 class="font-display font-bold text-xl mb-2">5 Vinagretes que voc  precisa saber</h3>
 
-                        <p class="text-gray-400 text-sm">Eleve seus saladas com essas simples mas deliciosas receitas de molho</p>
+                        <p class="text-white text-sm">Eleve seus saladas com essas simples mas deliciosas receitas de molho</p>
 
                     </div>
 
@@ -724,15 +725,15 @@
 
     <!-- Newsletter -->
 
-    <section class="py-12 px-6 bg-gradient-to-r from-dark to-gray-900 mt-12">
+    <section class="py-12 px-6 bg-gradient-to-r from-primary to-secondary mt-12">
 
         <div class="max-w-4xl mx-auto text-center">
 
             <h2 class="text-3xl font-display font-bold mb-4">Recibe inspiracion recetaria cada semana</h2>
 
-            <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
+            <p class="text-black mb-8 max-w-2xl mx-auto;">
 
-                Recibe las mejores recetas, consejos de cocina y entrevistas a chefs cada semana en tu correo electr nico.
+                Recibe las mejores recetas, consejos de cocina y entrevistas a chefs cada semana en tu correo electronico.
 
             </p>
 
@@ -766,7 +767,7 @@
 
                     <p class="text-gray-400 text-sm">
 
-                        Llevando las mejores recetas del mundo a tu cocina con calidad premium y gu a experta.
+                        Llevando las mejores recetas del mundo a tu cocina con calidad premium y guia experta.
 
                     </p>
 
@@ -837,11 +838,11 @@
 
                         <li><a href="#" class="text-gray-400 hover:text-primary transition text-sm">Comunidad</a></li>
 
-                        <li><a href="#" class="text-gray-400 hover:text-primary transition text-sm">Pol tica de privacidad</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-primary transition text-sm">Politica de privacidad</a></li>
 
-                        <li><a href="#" class="text-gray-400 hover:text-primary transition text-sm">T rminos de servicio</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-primary transition text-sm">Terminos de servicios</a></li>
 
-                        <li><a href="#" class="text-gray-400 hover:text-primary transition text-sm">Pol tica de cookies</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-primary transition text-sm">Politica de cookies</a></li>
 
                     </ul>
 
